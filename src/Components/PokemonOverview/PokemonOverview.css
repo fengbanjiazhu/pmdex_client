@@ -1,13 +1,15 @@
-.pokemon_list{
+.pokemon-overview{
+  height: 100%;
   display: flex;
   position: relative;
   justify-content: center;
   align-items: flex-end;
   flex-wrap: wrap;
   padding: 1% 3%;
+  overflow-y: auto;
 }
 
-.pokemon_preview {
+.pokemon-thumbnail {
   flex-basis:auto;
   margin: 1%;
   transition:transform 0.15s ;
@@ -18,7 +20,7 @@
   border: 5px solid slategrey;
 }
 
-.pokemon_preview:hover {
+.pokemon-thumbnail:hover {
   transform: scale(1.08);
   color:tomato;
 }
